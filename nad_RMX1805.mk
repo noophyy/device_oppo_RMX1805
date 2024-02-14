@@ -24,8 +24,7 @@ TARGET_VENDOR_PRODUCT_NAME := RMX1805
 
 #PRIVATE_BUILD
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="S88051AA1-user 9 PKQ1.190319.001 eng.root.20201120.092029 release-keys"
-PRIVATE_BUILD_DESC="S88051AA1-user 9 PKQ1.190319.001 eng.root.20201120.092029 release-keys"
-
+ 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys"
 

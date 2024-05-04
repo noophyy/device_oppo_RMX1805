@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+#Dex2oat
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.image-dex2oat-cpu-set=4,5,6,7 \
+    dalvik.vm.dex2oat-threads=4
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \

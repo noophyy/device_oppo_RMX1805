@@ -86,7 +86,13 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
+TARGET_KERNEL_CONFIG := mikasa_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+EXTRA_CFLAGS := \
+  CC=clang := \
+    CROSS_COMPILE=aarch64-linux-gnu- := \
+       CROSS_COMPILE_ARM32=arm-linux-gnueabi- 2>&1 
+
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
@@ -141,3 +147,4 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
 
 # Inherit from the proprietary version
 -include vendor/oppo/RMX1805/BoardConfigVendor.mk
+

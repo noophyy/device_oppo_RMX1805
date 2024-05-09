@@ -16,6 +16,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 #FireFox
 PRODUCT_PACKAGES += \
     FirefoxLite

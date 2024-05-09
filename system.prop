@@ -314,6 +314,20 @@ ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=180
 ro.zram.periodic_wb_delay_hours=24
 
+# Cloud_flare_dns
+net.dns1= 1.1.1.1
+net.dns2= 1.0.0.1
+net.rmnet0.dns1= 1.1.1.1
+net.rmnet0.dns2= 1.0.0.1
+net.ppp0.dns1= 1.1.1.1
+net.ppp0.dns2= 1.0.0.1
+net.wlan0.dns1= 1.1.1.1
+net.wlan0.dns2= 1.0.0.1
+net.eth0.dns1= 1.1.1.1
+net.eth0.dns2= 1.0.0.1
+net.gprs.dns1= 1.1.1.1
+net.gprs.dns2= 1.0.0.1
+
 dalvik.vm.dex2oat64.enabled=true
 ro.vendor.qti.am.reschedule_service=true
 ro.sys.fw.dex2oat_thread_count=8

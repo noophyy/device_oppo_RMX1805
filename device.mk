@@ -20,6 +20,10 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     FirefoxLite
 
+# Gcam
+PRODUCT_PACKAGES += \
+    GCam
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     libldacBT_dec

@@ -147,4 +147,3 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
 
 # Inherit from the proprietary version
 -include vendor/oppo/RMX1805/BoardConfigVendor.mk
-

@@ -35,9 +35,16 @@ debug.enable.sglscale=1
 debug.gralloc.enable_fb_ubwc=1
 debug.sf.recomputecrop=0
 
-#Hal3
+# Camera
+persist.vendor.camera.preview.ubwc=0
+persist.vendor.camera.isp.clock.optmz=0
+persist.vendor.camera.isp.turbo=1
+persist.vendor.camera.imglib.usefdlite=1
+persist.vendor.camera.expose.aux=1
 persist.vendor.camera.HAL3.enabled=1
-
+persist.vendor.camera.manufacturer=realme
+persist.vendor.camera.model=Realme 2
+persist.vendor.camera.awb.sync=2
 #Prop to chnage screen density
 ro.sf.lcd_density=360
 # LMKD
